@@ -2,22 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #212529;
-    color: white;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: lighter;
   }
 
+body{
+  background-color: #212529;
+  color: white;
+}
 
 header h1 {
     display: inline;
     margin: 0;
+    text-align: center;
+
 }
 
 header nav ul li a {
     text-decoration: none;
     margin: 0 30px;
-
+    color: white;
 }
 
 header nav ul li {
@@ -51,11 +55,56 @@ footer div {
     opacity: 95%;
     padding: 3.5px;
     text-decoration: none;
+    background-color: #212529;
+    color: #f2f5f8;
     display: inline;
+    
   }
 
   section {
     padding: 60px;
     border-color: snow;
     border: 50px;
+    text-align: center;
+
+  }
+
+  .doula-form {
+    padding: 20px;
+    width: 500px;
+    background-color: snow;
+    color: #212529;
+    border-style: solid;
+    border-width: 3px;
+    width: 100%;
+    border-radius: 4px;
+    text-align: left;
+
+  }
+
+  .doula-form p {
+    margin: 5px 0 15px 0;
+  }
+
+  .doula-form h3 {
+    margin: 0;
+    font-size: 26px;
+  }
+
+  .form-input {
+    border: 1px solid #212529;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #212529;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .doula-button {
+    background-color: #212529;
+    color: #f2f5f8;
+    border-radius: 4px;
+    padding: 6px;
+    border: none;
   }
